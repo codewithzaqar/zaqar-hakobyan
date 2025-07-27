@@ -16,6 +16,6 @@ On some platforms, Python will look for and load shared library files named with
 
 All functions in the Stable ABI are present as functions in Python's shared library, not solely as macros. This makes them usable from languages that don't use the C preprocessor.
 # Platform Considerations
-ABI stability depends not only on Python, but also on the compiler used, lower-level libraries and compiler options. For the purposes of the [[#Stable ABI|Stable ABI]],
+ABI stability depends not only on Python, but also on the compiler used, lower-level libraries and compiler options. For the purposes of the [[C API Stability#Stable ABI|Stable ABI]],
 # Contents of Limited API
 Currently, the [[#Limited C API|Limited API]] includes the following items:
