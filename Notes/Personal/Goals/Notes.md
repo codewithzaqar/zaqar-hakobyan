@@ -1,0 +1,2 @@
+- [x] Command line and environment [[1. Command line and environment]] ✅ 2025-07-27
+	- [x] Alternate Implementations [[1.1. Alternate Implementations]] ✅ 2025-07-27
