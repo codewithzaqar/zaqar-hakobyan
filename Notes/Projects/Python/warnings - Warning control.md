@@ -12,6 +12,11 @@ User code can define additional warning categories by subclassing one of the sta
 
 The following warnings category classes are currently defined:
 
+| Class                                                          | Description                                                                                                                                                       |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Build-in Exceptions#*exception* `Warning`\|Warning]]         | This is the base class of all warning category classes. It is a subclass of [[Build-in Exceptions#*exception* `Exception`\|Exception]].                           |
+| [[Build-in Exceptions#*exception* `UserWarning`\|UserWarning]] | The default category for [[warnings - Warning control#warnings.warn(*message*, *category=None*, *stacklevel=1*, *source=None*, skip_file_prefixes=())\|warn( )]]. |
+|                                                                |                                                                                                                                                                   |
 # Available Functions
 #### warnings.warn(*message*, *category=None*, *stacklevel=1*, *source=None*, skip_file_prefixes=())
 Issue a warning, or maybe ignore it or raise an exception. The *category* argument, if given, must be a [[warnings - Warning control#Warning Categories|Warning Categories]]
