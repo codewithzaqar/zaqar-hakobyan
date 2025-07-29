@@ -6,7 +6,9 @@ Python programmers issue warnings by calling the [[warnings - Warning control#wa
 # Warning Categories
 There are a number of built-in exceptions that represent warning categories. This categorization is useful to be able to filter out groups of warnings.
 
-While these are technically [[]]
+While these are technically [[Build-in Exceptions|built-in exceptions]], they are documented here, because conceptually they belong to the warnings mechanism.
+
+User code can define additional warning categories by subclassing one of the standard warning categories. A warning category must always be a subclass of the [[]]
 # Available Functions
 #### warnings.warn(*message*, *category=None*, *stacklevel=1*, *source=None*, skip_file_prefixes=())
 Issue a warning, or maybe ignore it or raise an exception. The *category* argument, if given, must be a [[warnings - Warning control#Warning Categories|Warning Categories]]
