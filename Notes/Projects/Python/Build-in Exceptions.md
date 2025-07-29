@@ -1,6 +1,8 @@
 Test
 # Warnings
 The following exceptions are used as warning categories; see the [[warnings - Warning control#Warning Categories|Warning Categories]] documentation for more details
+#### *exception* `Warning`
+Base class for warning categories.
 #### *exception* `DeprecationWarning`
 Base class for warnings about deprecated features when those warnings are intended for other Python developers.
 
