@@ -8,7 +8,10 @@ There are a number of built-in exceptions that represent warning categories. Thi
 
 While these are technically [[Build-in Exceptions|built-in exceptions]], they are documented here, because conceptually they belong to the warnings mechanism.
 
-User code can define additional warning categories by subclassing one of the standard warning categories. A warning category must always be a subclass of the [[]]
+User code can define additional warning categories by subclassing one of the standard warning categories. A warning category must always be a subclass of the [[Build-in Exceptions#*exception* `Warning`|Warning]] class.
+
+The following warnings category classes are currently defined:
+
 # Available Functions
 #### warnings.warn(*message*, *category=None*, *stacklevel=1*, *source=None*, skip_file_prefixes=())
 Issue a warning, or maybe ignore it or raise an exception. The *category* argument, if given, must be a [[warnings - Warning control#Warning Categories|Warning Categories]]
