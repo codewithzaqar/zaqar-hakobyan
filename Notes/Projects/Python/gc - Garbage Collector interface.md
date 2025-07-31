@@ -1,1 +1,2 @@
 #### `gc.collect(generation=2)`
+With no arguments, run a full collection. The optional argument *generation* may be an integer specifying which generation to collect (from 0 to 2). A [[Build-in Exceptions]]
