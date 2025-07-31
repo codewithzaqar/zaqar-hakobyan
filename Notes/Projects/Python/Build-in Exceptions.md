@@ -3,7 +3,21 @@ Test
 #### *exception* `Exception`
 All built-in, non-system-exiting exceptions are derived from this class. All user-defined exceptions should also be derived from this class.
 # Concrete exceptions
+#### *exception* `IndexError`
+Raised when a sequence subscript is out of range. (Slice indices are silently truncated to fall in the allowed range; if an index is not an integer, [[Build-in Exceptions#*exception* `TypeError`|TypeError]] is raised.)
+#### *exception* `NotImplementedError`
+This exception is derived from [[Build-in Exceptions#*exception* `RuntimeError`|RuntimeError]]. In user defined base classes, abstract methods should raise this exception when they require derived classes to override the method, or while the class is being developed to indicate that the real implementation still needs to be added.
 #### *exception* `OSError([arg])`
+#### *exception* `RuntimeError`
+Raised when an error is detected that doesn't fall in any of the other categories. The associated value is a string indicating what precisely went wrong.
+#### *exception* `TypeError`
+Raised when an operation or function is applied to an object of inappropriate type. The associated value is a string giving details about the type mismatch.
+
+This exception may be raised by user code to indicate that an attempted operation on an object is not supported, and is not meant to be. If an object is meant to support a given operation but has not yet provided an implementation, [[Build-in Exceptions#*exception* `NotImplementedError`|NotImplementedError]] is the proper exception to raise.
+
+Passing arguments of the wrong type (e.g. passing a [[list]])
+#### *exception* `ValueError`
+Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as [[#Concrete exceptions#*exception* `IndexError`|IndexError]].
 #### *exception* `ZeroDivisionError`
 Raised when the second argument of a division or modulo operation is zero. The associated value is a string indicating the type of the operands and the operation.
 The following exceptions are kept for compatibility with previous versions; starting from Python 3.3, they are aliases of [[Build-in Exceptions#*exception* `OSError([arg])`|OSError]].
