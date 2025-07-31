@@ -2,6 +2,11 @@ Test
 # Exception context
 #### *exception* `Exception`
 All built-in, non-system-exiting exceptions are derived from this class. All user-defined exceptions should also be derived from this class.
+# Concrete exceptions
+#### *exception* `OSError([arg])`
+#### *exception* `ZeroDivisionError`
+Raised when the second argument of a division or modulo operation is zero. The associated value is a string indicating the type of the operands and the operation.
+The following exceptions are kept for compatibility with previous versions; starting from Python 3.3, they are aliases of [[Build-in Exceptions#*exception* `OSError([arg])`|OSError]].
 # Warnings
 The following exceptions are used as warning categories; see the [[warnings - Warning control#Warning Categories|Warning Categories]] documentation for more details
 #### *exception* `Warning`
