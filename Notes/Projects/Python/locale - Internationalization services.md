@@ -1,0 +1,4 @@
+**Source code:** [Lib/locale.py](https://github.com/python/cpython/tree/3.13/Lib/locale.py) 
+___
+#### `locale.strxfrm(string)`
+Transforms a string to one that can be used in locale-aware comparisons. For example, `strxfrm(s1) < strxfrm(s2)` is equivalent to `strcoll(s1, s2) <0`. This function can be used when the same string is compared repeatedly, e.g. when collating a sequence of strings.
