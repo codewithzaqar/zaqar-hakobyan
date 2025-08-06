@@ -15,7 +15,7 @@ Raised when an operation or function is applied to an object of inappropriate ty
 
 This exception may be raised by user code to indicate that an attempted operation on an object is not supported, and is not meant to be. If an object is meant to support a given operation but has not yet provided an implementation, [[Build-in Exceptions#*exception* `NotImplementedError`|NotImplementedError]] is the proper exception to raise.
 
-Passing arguments of the wrong type (e.g. passing a [[list]])
+Passing arguments of the wrong type (e.g. passing a [[list]]) 
 #### *exception* `ValueError`
 Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as [[#Concrete exceptions#*exception* `IndexError`|IndexError]].
 #### *exception* `ZeroDivisionError`
