@@ -1,3 +1,5 @@
+#### `class bool(object=False, /)`
+Return a Boolean value, i.e. one of `True` or `False`. The argument is converted using the standard [[Built-in Types#Truth Value Testing|truth testing procedure]] 
 #### `max(iterable, *, key=None)`
 #### `min(iterable, *, key=None)`
 #### `sorted(iterable, /, *, key=None, reverse=False)`
