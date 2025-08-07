@@ -1,3 +1,5 @@
+## Truth Value Testing
+Any object can be tested for truth value, for use in an [[8.1. The if statement|if]] or [[while]] condition or as operand of the Boolean operations below.
 ### Lists
 
 Lists are mutable sequences, typically used to store collections of homogeneous items (where the precise degree of similarity will vary by application).
